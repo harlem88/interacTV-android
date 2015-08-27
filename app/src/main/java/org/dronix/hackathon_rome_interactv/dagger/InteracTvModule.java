@@ -1,5 +1,9 @@
 package org.dronix.hackathon_rome_interactv.dagger;
 
+import android.app.Activity;
+
+import org.dronix.hackathon_rome_interactv.MainActivity;
+import org.dronix.hackathon_rome_interactv.interfaces.ISpeakEngine;
 import org.dronix.hackathon_rome_interactv.request.ReqManager;
 
 import javax.inject.Singleton;
@@ -20,5 +24,6 @@ public class InteracTvModule {
     ReqManager provideReqManager() {
         return new ReqManager(application.getApplicationContext());
     }
+
 
 }

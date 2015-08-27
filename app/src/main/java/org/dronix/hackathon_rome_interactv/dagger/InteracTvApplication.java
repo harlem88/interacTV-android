@@ -1,9 +1,5 @@
 package org.dronix.hackathon_rome_interactv.dagger;
-
-
 import android.app.Application;
-
-import org.dronix.hackathon_rome_interactv.DaggerInteracTvComponent;
 
 public class InteracTvApplication extends Application {
     private InteracTvComponent component;
@@ -19,5 +15,6 @@ public class InteracTvApplication extends Application {
     public InteracTvComponent component() {
         return component;
     }
+
 
 }
